@@ -60,6 +60,16 @@
     }
   },
   {
+    "name": "Neural Style Transfer",
+    "desc": "It allows to blend two images (content and style) together to create new art.",
+    "image": "nst",
+    "category": "ml",
+    "links": {
+      "view": "https://github.com/SwarupKanade/Neural-Style-Transfer",
+      "code": "https://github.com/SwarupKanade/Neural-Style-Transfer"
+    }
+  },
+  {
     "name": "Chat-Support Website",
     "desc": "ChatApp But Automated Functionality Added. Allows business-consumer to connect.",
     "image": "chatsupport",

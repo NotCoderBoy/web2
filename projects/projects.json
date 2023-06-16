@@ -40,6 +40,16 @@
     }
   },
   {
+    "name": "VDLPR",
+    "desc": "A computer vision project that aims to detect vehicles and recognize it's license plates.",
+    "image": "vdlpr",
+    "category": "ml",
+    "links": {
+      "view": "https://github.com/SwarupKanade/Vehicle-Detection-And-Plate-Recognition",
+      "code": "https://github.com/SwarupKanade/Vehicle-Detection-And-Plate-Recognition"
+    }
+  },
+  {
     "name": "iNote Application",
     "desc": "Anyone can add, update and delete notes. PHP and mySql for backend and Bootatrap-4 for frontend.",
     "image": "inote",

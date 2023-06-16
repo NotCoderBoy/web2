@@ -5,18 +5,18 @@
     "image": "inventory",
     "category": "php",
     "links": {
-      "view": "https://github.com/OmkarKanade/Inventory-Management-System",
-      "code": "https://github.com/OmkarKanade/Inventory-Management-System"
+      "view": "https://github.com/SwarupKanade/Inventory-Management-System",
+      "code": "https://github.com/SwarupKanade/Inventory-Management-System"
     }
   },
   {
-    "name": "Sorting Visualizer",
-    "desc": "Visualizer is a web app for visualizing  different sorting algorithms with the functionality of Speed and Size Control.",
-    "image": "sort",
+    "name": "CPU Scheduler",
+    "desc": "CPU Scheduling is a process of determining which process will own CPU for execution while another process is on hold.",
+    "image": "cpu",
     "category": "js",
     "links": {
-      "view": "https://github.com/OmkarKanade/Sorting-Visualizer",
-      "code": "https://github.com/OmkarKanade/Sorting-Visualizer"
+      "view": "https://github.com/SwarupKanade/CPU-Scheduler",
+      "code": "https://github.com/SwarupKanade/CPU-Scheduler"
     }
   },
   {
@@ -25,8 +25,8 @@
     "image": "jsmusic",
     "category": "js",
     "links": {
-      "view": "https://github.com/OmkarKanade/MP3-Music-Player",
-      "code": "https://github.com/OmkarKanade/MP3-Music-Player"
+      "view": "https://github.com/SwarupKanade/MP3-Music-Player",
+      "code": "https://github.com/SwarupKanade/MP3-Music-Player"
     }
   },
   {
@@ -35,8 +35,8 @@
     "image": "tracker",
     "category": "extension",
     "links": {
-      "view": "https://github.com/OmkarKanade/Website-Time-Tracker",
-      "code": "https://github.com/OmkarKanade/Website-Time-Tracker"
+      "view": "https://github.com/SwarupKanade/Website-Time-Tracker",
+      "code": "https://github.com/SwarupKanade/Website-Time-Tracker"
     }
   },
   {
@@ -45,8 +45,8 @@
     "image": "inote",
     "category": "php",
     "links": {
-      "view": "https://github.com/OmkarKanade/iNote",
-      "code": "https://github.com/OmkarKanade/iNote"
+      "view": "https://github.com/SwarupKanade/iNote",
+      "code": "https://github.com/SwarupKanade/iNote"
     }
   },
   {
@@ -55,8 +55,8 @@
     "image": "chatsupport",
     "category": "php",
     "links": {
-      "view": "https://github.com/OmkarKanade/Chat-Support",
-      "code": "https://github.com/OmkarKanade/Chat-Support"
+      "view": "https://github.com/SwarupKanade/Chat-Support",
+      "code": "https://github.com/SwarupKanade/Chat-Support"
     }
   }
 ]

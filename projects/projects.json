@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Inventory System",
+    "desc": "Basic Inventory System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
+    "image": "inventory",
+    "category": "php",
+    "links": {
+      "view": "https://github.com/OmkarKanade/Inventory-Management-System",
+      "code": "https://github.com/OmkarKanade/Inventory-Management-System"
+    }
+  },
+  {
+    "name": "Sorting Visualizer",
+    "desc": "Visualizer is a web app for visualizing  different sorting algorithms with the functionality of Speed and Size Control.",
+    "image": "sort",
+    "category": "js",
+    "links": {
+      "view": "https://github.com/OmkarKanade/Sorting-Visualizer",
+      "code": "https://github.com/OmkarKanade/Sorting-Visualizer"
+    }
+  },
+  {
+    "name": "JS Music Player",
+    "desc": "It is Web-Based MP3 Music Player.",
+    "image": "jsmusic",
+    "category": "js",
+    "links": {
+      "view": "https://github.com/OmkarKanade/MP3-Music-Player",
+      "code": "https://github.com/OmkarKanade/MP3-Music-Player"
+    }
+  },
+  {
+    "name": "Website Time Tracker",
+    "desc": "A tool designed to help users keep track of how much time they spend on various websites.",
+    "image": "tracker",
+    "category": "extension",
+    "links": {
+      "view": "https://github.com/OmkarKanade/Website-Time-Tracker",
+      "code": "https://github.com/OmkarKanade/Website-Time-Tracker"
+    }
+  },
+  {
+    "name": "iNote Application",
+    "desc": "Anyone can add, update and delete notes. PHP and mySql for backend and Bootatrap-4 for frontend.",
+    "image": "inote",
+    "category": "php",
+    "links": {
+      "view": "https://github.com/OmkarKanade/iNote",
+      "code": "https://github.com/OmkarKanade/iNote"
+    }
+  },
+  {
+    "name": "Chat-Support Website",
+    "desc": "ChatApp But Automated Functionality Added. Allows business-consumer to connect.",
+    "image": "chatsupport",
+    "category": "php",
+    "links": {
+      "view": "https://github.com/OmkarKanade/Chat-Support",
+      "code": "https://github.com/OmkarKanade/Chat-Support"
+    }
+  }
+]

@@ -30,6 +30,16 @@
     }
   },
   {
+    "name": "Media Search",
+    "desc": "A Media information and searching app using The TMDB API and ReactJS.",
+    "image": "mediareact",
+    "category": "react",
+    "links": {
+      "view": "https://github.com/SwarupKanade/Media-Search",
+      "code": "https://github.com/SwarupKanade/Media-Search"
+    }
+  },
+  {
     "name": "Website Time Tracker",
     "desc": "A tool designed to help users keep track of how much time they spend on various websites.",
     "image": "tracker",

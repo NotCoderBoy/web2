@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #478978;
   font-family: "Poppins", sans-serif;
 }
 
@@ -37,7 +37,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #ff5f01;
 }
 
 /* pre loader start */
@@ -70,7 +70,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #242423;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -79,7 +79,7 @@ section {
 }
 .heading {
   font-size: 3.5rem;
-  color: rgb(32, 32, 32);
+  color: #fff;
   font-weight: 800;
   text-align: center;
 }
@@ -90,13 +90,13 @@ header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #fff;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #ff5f01;
 }
 header .navbar ul {
   list-style: none;
@@ -109,7 +109,7 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -117,8 +117,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #ff5f01;
+  border-bottom: 0.2rem solid #ff5f01;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -127,7 +127,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #fff;
   display: none;
 }
 @media (max-width: 768px) {
@@ -142,7 +142,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #242423;
   }
   header .navbar ul {
     flex-flow: column;
@@ -167,7 +167,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid #ff5f01;
   }
   .fa-times {
     transform: rotate(180deg);
@@ -224,7 +224,7 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #fff;
 }
 .home .content h2 span {
   font-size: 5rem;
@@ -251,8 +251,8 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  background: #022f40;
+  box-shadow: 0px 5px 18px #022f40;
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -266,7 +266,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: #012330;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -304,7 +304,7 @@ header .navbar ul li a:hover {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #0685da;
+  background-color: #022f40;
 }
 .social-icons a.github:hover {
   background-color: #0e0e0e;
@@ -346,7 +346,13 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  /* background: #242423; */
+  background: rgb(36, 36, 35);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 36, 35, 1) 21%,
+    rgba(71, 137, 120, 1) 100%
+  );
 }
 .about .row {
   display: flex;
@@ -365,24 +371,24 @@ header .navbar ul li a:hover {
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  filter: grayscale();
   transition: 0.3s;
   cursor: pointer;
 }
 .about .row .image img:hover {
-  mix-blend-mode: normal;
+  filter: grayscale(0);
 }
 .about .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
 }
 .about .row .content h3 {
-  color: rgb(27, 27, 27);
+  color: #d4f2db;
   font-size: 2.5rem;
 }
 .about .row .content .tag {
   font-size: 1.4rem;
-  color: #020133;
+  color: #d4f2db;
   font-weight: 600;
   margin-top: 1rem;
 }
@@ -392,6 +398,7 @@ header .navbar ul li a:hover {
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
+  color: #fff;
 }
 .about .row .content .box-container {
   display: flex;
@@ -404,7 +411,7 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 .about .row .content .box-container .box p span {
-  color: #011aff;
+  color: #ff5f01;
 }
 .resumebtn {
   margin-top: 6rem;
@@ -414,8 +421,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  border: 2px solid #fff;
   font-family: "Nunito", sans-serif;
 }
 .resumebtn .btn span {
@@ -429,7 +435,8 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #fff;
+  color: #242423;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -461,7 +468,13 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 50vh;
-  background: linear-gradient(to bottom, #1463e7, #f78e08);
+  background: rgb(75, 75, 74);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 36, 35, 1) 0%,
+    rgba(36, 36, 35, 1) 100%
+  );
+  /* background: linear-gradient(to bottom, #f7081c, #14e7cb); */
 }
 
 .skills h2 {
@@ -499,8 +512,8 @@ header .navbar ul li a:hover {
 }
 
 .skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0 8px 10px #04394d !important;
+  background-color: #022f40 !important;
 }
 
 .skills .container .bar .info {
@@ -559,7 +572,12 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: rgb(71, 137, 120);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 36, 35, 1) 0%,
+    rgba(36, 36, 35, 1) 100%
+  );
   min-height: 50vh;
 }
 .education .qoute {
@@ -568,6 +586,7 @@ header .navbar ul li a:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin-top: 0.5rem;
+  color: #fff;
 }
 .education .box-container {
   display: flex;
@@ -667,7 +686,13 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  /* background: linear-gradient(to bottom, #000031, #00002c); */
+  background: rgb(71, 137, 120);
+  background: linear-gradient(
+    0deg,
+    rgba(71, 137, 120, 1) 0%,
+    rgba(36, 36, 35, 1) 100%
+  );
 }
 
 .work h2 {
@@ -761,7 +786,7 @@ header .navbar ul li a:hover {
 }
 
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #022f40;
 }
 
 .work .viewall {
@@ -775,11 +800,11 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 0.5em;
   transition: 0.5s;
-  color: rgb(255, 255, 255);
   font-weight: 700;
-  border: 2px solid #fff;
-  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
+  color: #fff;
+  background: #022f40;
+  box-shadow: 0px 5px 10px #022f40;
 }
 
 .work .viewall .btn span {
@@ -795,8 +820,7 @@ header .navbar ul li a:hover {
 }
 
 .work .viewall .btn:hover {
-  background: #fff;
-  color: #000;
+  background: #034d68;
 }
 
 .work .viewall .btn:hover i {
@@ -843,7 +867,7 @@ header .navbar ul li a:hover {
   content: "";
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #242423;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -871,7 +895,7 @@ header .navbar ul li a:hover {
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color: #02094b;
+  color: #242423;
   font-family: "Font Awesome\ 5 Free";
 }
 .experience .left {
@@ -942,8 +966,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #022f40;
+  box-shadow: 0px 5px 10px #022f40;
   text-align: center;
 }
 .morebtn .btn span {
@@ -957,7 +981,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background: #034d68;
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -1006,7 +1030,12 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: rgb(212, 242, 219);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 242, 219, 1) 0%,
+    rgba(71, 137, 120, 1) 100%
+  );
   min-height: 60vh;
 }
 .contact .container {
@@ -1076,11 +1105,11 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid #022f40;
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
+  color: #022f40;
 }
 form .message {
   position: relative;
@@ -1115,13 +1144,13 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #022f40;
+  box-shadow: 0px 5px 10px #022f40;
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background: #034a64;
 }
 .button-area span {
   font-size: 17px;
@@ -1165,7 +1194,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: #242423;
 }
 .footer .box-container {
   display: flex;
@@ -1190,7 +1219,7 @@ form .button-area {
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #ffae00;
+  color: #ff5f01;
 }
 .footer .box-container .box a {
   font-size: 1.5rem;
@@ -1199,7 +1228,7 @@ form .button-area {
   display: block;
 }
 .footer .box-container .box a:hover {
-  color: #ffae00;
+  color: #ff5f01;
 }
 .footer .box-container .box .share {
   display: flex;
@@ -1216,14 +1245,14 @@ form .button-area {
   margin-right: 1rem;
   transition: 0.2s;
   background: rgb(230, 230, 230);
-  color: #02094b;
+  color: #022f40;
   border: none;
 }
 .footer .box-container .box .share a:hover {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: #ff5f01;
 }
 .footer .credit {
   padding: 1rem 0 0 0;
@@ -1235,7 +1264,7 @@ form .button-area {
   border-top: 0.1rem solid #fff3;
 }
 .footer .credit a {
-  color: #ffae00;
+  color: #ff5f01;
 }
 .footer .fa {
   color: #e90606;
@@ -1287,8 +1316,8 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #ff5f01;
+  color: #fff;
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;

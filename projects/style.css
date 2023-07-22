@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #478978;
   font-family: "Poppins", sans-serif;
 }
 
@@ -37,7 +37,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #ff5f01;
 }
 
 /* navbar starts */
@@ -52,7 +52,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #242423;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -72,13 +72,13 @@ header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #fff;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #ff5f01;
 }
 header .navbar ul {
   list-style: none;
@@ -91,15 +91,15 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #ff5f01;
+  border-bottom: 0.5rem solid #ff5f01;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -108,7 +108,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #fff;
   display: none;
 }
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #242423;
   }
   header .navbar ul {
     flex-flow: column;
@@ -148,7 +148,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid #ff5f01;
   }
   .fa-times {
     transform: rotate(180deg);
@@ -162,7 +162,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #010136, #00003a);
+  background: #478978;
   margin-top: 5rem;
 }
 .work h2 {
@@ -268,11 +268,11 @@ header .navbar ul li a:hover {
   border-radius: 0.5rem;
   font-size: 1.5rem;
   color: #fff;
-  background: rgb(12, 12, 12);
+  background: #022f40;
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #034d68;
 }
 
 @media screen and (max-width: 450px) {
@@ -283,6 +283,12 @@ header .navbar ul li a:hover {
     margin: 0rem;
   }
   .work .box-container .grid-item .box {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .work .box-container .box {
     width: 95% !important;
   }
 }
@@ -345,8 +351,8 @@ header .navbar ul li a:hover {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #ff5f01;
+  color: #fff;
   border-radius: 5rem;
   transition: 1s linear;
   z-index: 1000;

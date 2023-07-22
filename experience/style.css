@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #478978;
   font-family: "Poppins", sans-serif;
 }
 
@@ -37,7 +37,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #ff5f01;
 }
 
 /* navbar starts */
@@ -52,7 +52,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #242423;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -61,7 +61,7 @@ section {
 }
 .heading {
   font-size: 3.5rem;
-  color: rgb(20, 20, 20);
+  color: #fff;
   font-weight: 800;
   text-align: center;
 }
@@ -72,13 +72,13 @@ header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #fff;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #ff5f01;
 }
 header .navbar ul {
   list-style: none;
@@ -91,15 +91,15 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #ff5f01;
+  border-bottom: 0.2rem solid #ff5f01;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -108,7 +108,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #fff;
   display: none;
 }
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #242423;
   }
   header .navbar ul {
     flex-flow: column;
@@ -148,7 +148,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid #ff5f01;
   }
   .fa-times {
     transform: rotate(180deg);
@@ -164,6 +164,7 @@ header .navbar ul li a:hover {
   margin-top: 5rem;
 }
 .experience .quote {
+  color: #fff;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
@@ -177,7 +178,7 @@ header .navbar ul li a:hover {
   content: "";
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #242423;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -205,7 +206,7 @@ header .navbar ul li a:hover {
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color: #02094b;
+  color: #242423;
   font-family: "Font Awesome\ 5 Free";
 }
 .experience .left {
@@ -277,8 +278,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #022f40;
+  box-shadow: 0px 5px 10px #022f40;
   text-align: center;
 }
 .morebtn .btn span {
@@ -292,7 +293,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background: #034d68;
 }
 .morebtn .btn:hover i {
   transform: translateX(-8px);

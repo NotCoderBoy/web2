@@ -308,7 +308,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   color: #fff;
   border: 2px solid #fff;
-  box-shadow: 0px 2px 4px rgba(48, 68, 247, 0.3);
+  box-shadow: 0px 2px 4px #478978;
   text-align: center;
 }
 .backbtn .btn span {
